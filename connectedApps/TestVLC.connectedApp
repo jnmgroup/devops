@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>kdr4all@gmail.com</contactEmail>
+    <label>TestVLC</label>
+    <oauthConfig>
+        <callbackUrl>https://kdr4all-lwc-dev-ed.my.salesforce.com/apex/RestResponse</callbackUrl>
+        <consumerKey>3MVG9fe4g9fhX0E7BlfYUMziULRawQxBNQIaPawqtJwYhq409j5ESZlS4QKNSFQJPqa8UdRvz.oNSNtiDuGaF</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
